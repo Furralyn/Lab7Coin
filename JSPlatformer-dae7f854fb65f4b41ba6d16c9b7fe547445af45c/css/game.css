@@ -1,0 +1,21 @@
+.background    { background: black;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #b52d35; }
+.wall          { background: #a09489; }
+.floater       { background: #3e3a37;  }
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+.coin { background: yellow; }
+.health {background: green; }
+
+.deadPlayer {background: white}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
